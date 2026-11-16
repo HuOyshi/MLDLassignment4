@@ -1,0 +1,22 @@
+# dataset and downloaded fonts
+data/
+BanglaLekha-Isolated/
+*.zip
+
+# temporary training files (the MLflow runs in artifacts/mlflow/ ARE committed)
+artifacts/tmp_run/
+artifacts/class_preview.png
+/mlruns/
+/mlflow.db
+
+# Python / environments
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.DS_Store
+
+# duplicate model checkpoints inside MLflow runs (the deployed model is models/model.keras)
+artifacts/mlflow/artifacts/**/model/
