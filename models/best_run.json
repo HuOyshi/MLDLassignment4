@@ -1,0 +1,8 @@
+{
+  "run_id": "02b573431b91490cba5d5940f39f855d",
+  "run_name": "lstm192-lr5e-4",
+  "best_val_cer": 0.012991284328235488,
+  "best_val_word_acc_greedy": 0.9613333333333334,
+  "best_val_word_acc_lexicon": 0.9850746268656716,
+  "train_minutes": 70.54400618871053
+}
